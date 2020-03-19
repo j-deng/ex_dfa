@@ -23,7 +23,7 @@ be found at [https://hexdocs.pm/ex_dfa](https://hexdocs.pm/ex_dfa).
 build filter
 
 ```elixir
-ExDfa.build_filter([{1, ["Fuck", "Fucku"]}, {1, ["傻逼", "傻帽"]}])
+ExDfa.build_filter([{0, ["Fuck", "Fucku"]}, {1, ["傻逼", "傻帽"]}])
 
 %{
   "f" => %{"u" => %{"c" => %{"k" => %{'0' => 0, "u" => %{'0' => 0}}}}},
